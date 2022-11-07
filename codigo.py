@@ -1,3 +1,7 @@
+import sqlite3
+
+       
+conexion = sqlite3.connect("Apellidos_almacen")
 class Persona:
  def __init__(self, nom, dni, app):
          self.nom = nom
@@ -28,3 +32,10 @@ while i==0:
         exit()
     else:
         print("Opcion invalida")
+
+
+
+
+
+
+
